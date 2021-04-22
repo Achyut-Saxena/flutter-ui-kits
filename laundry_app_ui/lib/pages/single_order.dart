@@ -42,7 +42,7 @@ class _SingleOrderState extends State<SingleOrder> {
                       },
                       child: Icon(
                         FlutterIcons.keyboard_backspace_mdi,
-                        color: Colors.white,
+                        color: Color.fromRGBO(255, 128, 171, 1),
                       ),
                     ),
                     SizedBox(
@@ -55,14 +55,14 @@ class _SingleOrderState extends State<SingleOrder> {
                             text: "Details About\n",
                             style:
                                 Theme.of(context).textTheme.headline6.copyWith(
-                                      color: Colors.white,
+                                      color: Color.fromRGBO(255, 128, 171, 1),
                                     ),
                           ),
                           TextSpan(
                             text: "Order #521",
                             style:
                                 Theme.of(context).textTheme.headline6.copyWith(
-                                      color: Colors.white,
+                                      color: Colors.black,
                                       fontWeight: FontWeight.w600,
                                     ),
                           ),
@@ -90,7 +90,7 @@ class _SingleOrderState extends State<SingleOrder> {
                             "Order Details",
                             style:
                                 Theme.of(context).textTheme.headline6.copyWith(
-                                      color: Color.fromRGBO(74, 77, 84, 1),
+                                      color: Colors.black,
                                       fontSize: 16.0,
                                       fontWeight: FontWeight.w800,
                                     ),
@@ -102,7 +102,7 @@ class _SingleOrderState extends State<SingleOrder> {
                             "WASHING AND FOLDING",
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
-                              color: Color.fromRGBO(143, 148, 162, 1),
+                              color: Colors.black,
                             ),
                           ),
                           SizedBox(

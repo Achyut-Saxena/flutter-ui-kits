@@ -24,27 +24,27 @@ class _DashboardState extends State<Dashboard> {
           Icon(
             FlutterIcons.ios_home_ion,
             size: 30.0,
-            color: activeIndex == 0 ? Colors.white : Color(0xFFC8C9CB),
+            color: activeIndex == 0 ? Colors.pink : Color(0xFFC8C9CB),
           ),
           Icon(
             FlutterIcons.map_marker_radius_mco,
             size: 30.0,
-            color: activeIndex == 1 ? Colors.white : Color(0xFFC8C9CB),
+            color: activeIndex == 1 ? Colors.pink : Color(0xFFC8C9CB),
           ),
           Icon(
             FlutterIcons.plus_ant,
             size: 30.0,
-            color: activeIndex == 2 ? Colors.white : Color(0xFFC8C9CB),
+            color: activeIndex == 2 ? Colors.pink : Color(0xFFC8C9CB),
           ),
           Icon(
             FlutterIcons.heart_fea,
             size: 30.0,
-            color: activeIndex == 3 ? Colors.white : Color(0xFFC8C9CB),
+            color: activeIndex == 3 ? Colors.pink: Color(0xFFC8C9CB),
           ),
           Icon(
             FlutterIcons.setting_ant,
             size: 30.0,
-            color: activeIndex == 4 ? Colors.white : Color(0xFFC8C9CB),
+            color: activeIndex == 4 ? Colors.pink : Color(0xFFC8C9CB),
           ),
         ],
         onTap: (index) {
@@ -90,7 +90,7 @@ class _DashboardState extends State<Dashboard> {
                           },
                           child: Icon(
                             FlutterIcons.keyboard_backspace_mdi,
-                            color: Colors.white,
+                            color: Color.fromRGBO(255, 128, 171, 1),
                           ),
                         ),
                         Row(
@@ -100,7 +100,7 @@ class _DashboardState extends State<Dashboard> {
                               text: TextSpan(
                                 children: [
                                   TextSpan(
-                                    text: "Welcome Back,\n",
+                                    text: "Hello!\n",
                                     style: Theme.of(context)
                                         .textTheme
                                         .headline6
@@ -109,7 +109,7 @@ class _DashboardState extends State<Dashboard> {
                                         ),
                                   ),
                                   TextSpan(
-                                    text: "FlutterPanda!",
+                                    text: "Welcome to Tidify",
                                     style: Theme.of(context)
                                         .textTheme
                                         .headline6

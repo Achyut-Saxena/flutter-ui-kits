@@ -62,10 +62,10 @@ class Home extends StatelessWidget {
                   children: [
                     SizedBox(height: 20.0),
                     Text(
-                      "Welcome to Laundree!",
+                      "Welcome to Tidify!",
                       style: Theme.of(context).textTheme.headline6.copyWith(
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(19, 22, 33, 1),
+                            color: Colors.white,
                           ),
                     ),
                     SizedBox(

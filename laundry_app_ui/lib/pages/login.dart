@@ -46,7 +46,7 @@ class Login extends StatelessWidget {
                               },
                               child: Icon(
                                 FlutterIcons.keyboard_backspace_mdi,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
                             SizedBox(
@@ -59,7 +59,7 @@ class Login extends StatelessWidget {
                                   .headline6
                                   .copyWith(
                                     fontWeight: FontWeight.w600,
-                                    color: Colors.white,
+                                    color: Colors.black,
                                   ),
                             )
                           ],
